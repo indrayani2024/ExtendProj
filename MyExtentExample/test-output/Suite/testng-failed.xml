@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.newgen.tests.BasePageTest">
+        <methods>
+          <include name="verifyHomePage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="baseTest1"/>
+          <include name="baseTest2"/>
+          <include name="baseTest3"/>
+        </methods>
+      </class> <!-- com.newgen.tests.BasePageTest -->
+      <class name="com.newgen.tests.SignInPageTest">
+        <methods>
+          <include name="SignInPageTestOne"/>
+          <include name="tearDown"/>
+          <include name="SignInPageTestTwo"/>
+          <include name="verifySignInFunction"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="SignInPageTestThree"/>
+        </methods>
+      </class> <!-- com.newgen.tests.SignInPageTest -->
+      <class name="com.newgen.tests.CreateAccountTest">
+        <methods>
+          <include name="createAccountExample2"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="createAccountExample1"/>
+          <include name="verifyCreateAnAccountPage"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.newgen.tests.CreateAccountTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

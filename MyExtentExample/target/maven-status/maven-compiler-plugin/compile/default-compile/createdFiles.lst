@@ -1,0 +1,7 @@
+com\newgen\base\ExtentTestManager.class
+com\newgen\pages\BasePage.class
+com\newgen\pages\SignInPage.class
+com\newgen\base\ExtentManager.class
+com\newgen\base\TestListener.class
+com\newgen\pages\CreateAccountPage.class
+com\newgen\base\TestBase.class
